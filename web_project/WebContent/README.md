@@ -23,7 +23,12 @@
 		
 	1. 환경설정 하기 (Tomcat을 Eclipse에 지정하는 과정)
 		
-		작성 필요함
+		Window --> Preference --> Server --> RuntimeEnvironments
+		에서 Add로 Apache Tomcat의 버전을 선택한다. (설치된 Apache Tomcat의 버전)
+		
+		Window --> Show View --> Servers
+		생성된 Servers 창에서 Tomcat을 실행
+		(실행 후, Console창에서 정상실행을 확인할 수 있다 - 에러 발생시, 깨진 문자가 발생한다)
 		
 ---
 
