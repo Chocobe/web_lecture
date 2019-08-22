@@ -11,11 +11,11 @@
 	1. C:\Users\user\Downloads\apache-tomcat-8.5.43-windows-x64\apache-tomcat-8.5.43\conf
 		에서 ``server.xml``파일 열기
 		
-	```java
-	<Connector port="8080" protocol="HTTP/1.1"
-	connectionTimeout="20000"
-	redirectPort="8443" />
-	```
+		```java
+		<Connector port="8080" protocol="HTTP/1.1"
+		connectionTimeout="20000"
+		redirectPort="8443" />
+		```
 	
 		부분의 ``port``값을 8080에서 다른 값으로 바꿔야 한다.
 		(DB도 8080 포트를 사용하기 때문에 충돌이 일어난다) -> 실습에서는 9090으로 바꿨음
