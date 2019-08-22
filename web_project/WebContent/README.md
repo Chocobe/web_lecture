@@ -23,12 +23,18 @@
 		
 	1. 환경설정 하기 (Tomcat을 Eclipse에 지정하는 과정)
 		
+		작성 필요함
 		
 ---
 
 * Project 폴더구성
 
+	1. Java Resources : java파일이 들어가는 곳 (기존의 java 프로젝트와 같다)
+	
+	1. JavaScript : javascript 파일이 들어가는 곳
+
 	1. WebContent : 웹에 대한 모든 파일이 들어간다.
 	
-	1. WEB-INF : 웹의 환경설정이 들어가는 부분
-		- lib : 웹에 추가할 기능이 들어가는 부분(JDBC 등)
+		1. WEB-INF : 웹의 환경설정이 들어가는 부분
+		
+			- lib : 웹에 추가할 기능이 들어가는 부분(JDBC 등)
