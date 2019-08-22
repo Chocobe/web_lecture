@@ -30,6 +30,9 @@
 		생성된 Servers 창에서 Tomcat을 실행
 		(실행 후, Console창에서 정상실행을 확인할 수 있다 - 에러 발생시, 깨진 문자가 발생한다)
 		
+	1. 테스트할 창 설정하기
+		Window --> Web Brower 에서 선택
+		
 ---
 
 * Project 폴더구성
