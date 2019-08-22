@@ -11,7 +11,7 @@
 	2. C:\Users\user\Downloads\apache-tomcat-8.5.43-windows-x64\apache-tomcat-8.5.43\conf
 		에서 ``server.xml``파일 열기
 		
-	3. ```HTML
+	3. ```java
 <Connector port="8080" protocol="HTTP/1.1"
 connectionTimeout="20000"
 redirectPort="8443" />
@@ -24,3 +24,10 @@ redirectPort="8443" />
 		
 		
 ---
+
+* Project 폴더구성
+
+	1. WebContent : 웹에 대한 모든 파일이 들어간다.
+	
+	1. WEB-INF : 웹의 환경설정이 들어가는 부분
+		- lib : 웹에 추가할 기능이 들어가는 부분(JDBC 등)
