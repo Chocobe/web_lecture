@@ -11,7 +11,7 @@
 	2. C:\Users\user\Downloads\apache-tomcat-8.5.43-windows-x64\apache-tomcat-8.5.43\conf
 		에서 ``server.xml``파일 열기
 		
-	3. ```XML
+	3. ```HTML
 <Connector port="8080" protocol="HTTP/1.1"
 connectionTimeout="20000"
 redirectPort="8443" />
