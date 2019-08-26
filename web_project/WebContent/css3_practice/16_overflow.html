@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<title>Insert title here</title>
+		
+		<style>
+			p {
+				text-align:justify;
+				border:1px solid black;
+				width:300px;
+				padding:10px;
+			}
+			
+			.scroll {
+				/* 공백 처리 옵션 */
+				/* 연속하는 공백을 하나로 처리하고, 줄바꿈을 하지 않는 옵션*/
+				white-space:nowrap;
+				overflow:scroll;
+			}
+			
+			.hidden {
+				/* 넘어가는 문자를 ... 으로 표현하기 */
+				white-space:nowrap;
+				overflow:hidden;
+				text-overflow:ellipsis;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p class="scroll">
+		Integer elementum massa at nulla placerat varius.
+		Suspendisse in libero risus, in interdum massa.
+		Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>
+		
+		<p class="hidden">
+		Integer elementum massa at nulla placerat varius.
+		Suspendisse in libero risus, in interdum massa.
+		Vestibulum ac leo vitae metus faucibus gravida ac in neque.
+		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>
+	</body>
+</html>
