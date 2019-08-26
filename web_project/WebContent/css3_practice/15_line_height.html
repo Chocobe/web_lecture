@@ -4,59 +4,46 @@
 		<meta charset= "UTF-8">
 		<title>Insert title here</title>
 		
-		<!-- 글자 정렬하기 -->
+		<!-- 문서의 줄 간격 설정하기 -->
 		<style>
 			p {
 				border:10px solid #ccc;
-				padding:15px;
 				margin:20px;
-			}
-		
-			.align-left {
-				/* 좌측정렬 */
-				text-align:left;
+				padding:20px;
 			}
 			
-			.align-right {
-				/* 우측정렬 */
-				text-align:right;
+			.big_line_height {
+				line-height:2;
 			}
 			
-			.align-center {
-				/* 중앙정렬 */
+			.small_line_height {
+				line-height:0.7;
+			}
+			
+			.align_center {
 				text-align:center;
-			}
-			
-			.align-justify {
-				/* 양쪽정렬 */
-				text-align:justify;
 			}
 		</style>
 	</head>
 
 	<body>
-		<p class="align-left">
+		<p class="big_line_height">
 		Integer elementum massa at nulla placerat varius.
 		Suspendisse in libero risus, in interdum massa.
 		Vestibulum ac leo vitae metus faucibus gravida ac in neque.
 		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>
 		
-		<p class="align-right">
+		<p class="small_line_height">
 		Integer elementum massa at nulla placerat varius.
 		Suspendisse in libero risus, in interdum massa.
 		Vestibulum ac leo vitae metus faucibus gravida ac in neque.
 		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>
 		
-		<p class="align-center">
+		<!-- class의 속성이 다수일 경우, 공백문자로 구분하여 입력한다. -->		
+		<p class="big_line_height align_center">
 		Integer elementum massa at nulla placerat varius.
 		Suspendisse in libero risus, in interdum massa.
 		Vestibulum ac leo vitae metus faucibus gravida ac in neque.
-		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>
-		
-		<p class="align-justify">
-		Integer elementum massa at nulla placerat varius.
-		Suspendisse in libero risus, in interdum massa.
-		Vestibulum ac leo vitae metus faucibus gravida ac in neque.
-		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>
+		Nullam est eros, suscipit sed dictum quis, accumsan a ligula.</p>		
 	</body>
 </html>
