@@ -4,23 +4,37 @@
 		<meta charset= "UTF-8">
 		<title>Insert title here</title>
 		
+		<!-- 우선순위 : 인라인 > id > class > tag -->
 		<style>
-			li {
-				list-style-type:square;
+			p {
 				color:blue;
+			}
+		
+			.heading {
+				padding:10px;
+				color:blue;
+				border-color:black;
+				border-style:solid;
+				border-width:2px;
+			}
+			
+			#habor {
+				color:green;
 			}
 		</style>
 	</head>
 
 	<body>
-		<h1>세계 3대 미항</h1>
+		<h1 class="heading" id="habor">세계 3대 미항</h1>
 		
 		<img src="../html5_practice/image/imageTest.jpg" width="50%" height="50%">
+		
+		<p>항구</p>
 		
 		<ul>
 			<li>시드니 호주</li>
 			<li>리우데지네이루 브라질</li>
 			<li>나폴리 이태리</li>
-		</ul>		
+		</ul>
 	</body>
 </html>
