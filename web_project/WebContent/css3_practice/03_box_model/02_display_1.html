@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<title>Insert title here</title>
+		
+		<!-- display 속성을 이용하여 'block, inline'으로 설정하기 -->
+		<style>
+			div {
+				border:2px solid gray;
+				border-radius:5px;
+				margin:30px;
+			}
+			
+			#block img {
+				display:block;
+				margin:10px;
+			}
+			
+			#inline img {
+				margin:10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="inline">
+			<img src="image/pic1.jpg">
+			<img src="image/pic2.jpg">
+			<img src="image/pic3.jpg">
+		</div>
+		
+		<div id="block">
+			<img src="image/pic1.jpg">
+			<img src="image/pic2.jpg">
+			<img src="image/pic3.jpg">
+		</div>
+	</body>
+</html>
