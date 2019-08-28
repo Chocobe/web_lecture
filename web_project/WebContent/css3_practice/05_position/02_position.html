@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<title>Insert title here</title>
+		
+		<style>			
+			#box_1 {
+				width:100px;
+				padding:20px;
+				
+				float:left;
+				background-color:magenta;
+				margin-right:10px;
+			}
+			
+			#box_2 {
+				/* 이전 요소에 자연스럽게 배치하는 옵션 */
+				position:relative;
+				/* 배치된 곳에서 위치 변경 */
+				left:-50px;
+				top:30px;
+				
+				width:300px;
+				float:left;
+				background-color:cyan;
+				padding:20px;
+			}
+			
+			#box_3 {
+				position:relative;
+				
+				width:100px;
+				float:left;
+				background-color:orange;
+				padding:20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="box_1"></div>		
+		<div id="box_2"></div>
+		<div id="box_3"></div>
+	</body>
+</html>
