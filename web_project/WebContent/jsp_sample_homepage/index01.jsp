@@ -19,7 +19,7 @@
 	.clear { clear:both }
 	
 	header{height: 137px;}
-	
+
 	#logo{float: left;text-indent: -9999px;
 	background:url(imgs/logo.png) no-repeat left top;
 	margin:42px 0 0 18px;}
